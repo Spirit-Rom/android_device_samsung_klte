@@ -1,4 +1,4 @@
-include device/samsung/ks01lte/sm.mk
+include device/samsung/klte/sm.mk
 
 $(call inherit-product, vendor/spirit/config/common_phone.mk)
 
