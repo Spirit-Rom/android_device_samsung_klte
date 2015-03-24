@@ -17,17 +17,6 @@
 
 TARGET_OTA_ASSERT_DEVICE := kltexx,kltelra,kltetmo,kltecan,klteatt,klteub,klteacg,klte,kltekor,klteskt,kltektt
 
-# Compiler flags
-ENABLE_GCCONLY := true
-GRAPHITE_OPTS := true
-KRAIT_TUNINGS := true
-STRICT_ALIASING := true
-SUPPRES_UNUSED_WARNING := true
-TARGET_GCC_VERSION_EXP := 4.8
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := 4.9
-TARGET_USE_PIPE := true
-USE_O3_OPTIMIZATIONS := true
-
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8974pro_sec_klte_eur_defconfig
 
