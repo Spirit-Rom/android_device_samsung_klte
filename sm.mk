@@ -13,7 +13,7 @@
 # limitations under the License.
 #
 
-USE_O3_OPTIMIZATIONS := true
+O3_OPTIMIZATIONS := true
 KRAIT_TUNINGS := true
 STRICT_ALIASING := true
 SUPPRES_UNUSED_WARNING := true
